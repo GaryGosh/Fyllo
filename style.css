@@ -1,0 +1,36 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(216, 14, 91, 0.9),
+      rgba(88, 24, 69, 0.9)
+    ),
+    url(https://i.pinimg.com/originals/91/b5/cd/91b5cdab51e207263169904b227503b4.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 900;
+  background-color: #ff3c00;
+  text-align: center;
+  box-shadow: 0 6px 6px #777;
+  padding: 0.5em 2em;
+  margin: 0.5em;
+}
+
+h3 {
+  padding-bottom: 1rem;
+}
+
+#map {
+  width: 90vw;
+  height: 400px;
+  background-color: grey;
+}
